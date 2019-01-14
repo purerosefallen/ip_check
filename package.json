@@ -1,0 +1,19 @@
+{
+  "name": "ip_check",
+  "version": "1.0.0",
+  "description": "A tool to check whether player used repeated IP.",
+  "main": "run.js",
+  "scripts": {
+    "test": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:purerosefallen/ip_check"
+  },
+  "keywords": [
+    "ygopro",
+    "srvpro"
+  ],
+  "author": "Nanahira",
+  "license": "GPL-3.0-or-later"
+}

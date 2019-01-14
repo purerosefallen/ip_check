@@ -1,5 +1,9 @@
-const duel_log = require("./duel_log.json");
+const loadJSON = require("load-json-file").sync;
 
+var log_path = "./duel_log.json";
+if(process.argv[2])
+    log_path = process.argv[2];
+const duel_log = loadJSON(log_path);
 const logs = duel_log.duel_log;
 
 function get_name_and_ip(player) {

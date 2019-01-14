@@ -15,5 +15,8 @@
     "srvpro"
   ],
   "author": "Nanahira",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "load-json-file": "^5.1.0"
+  }
 }
